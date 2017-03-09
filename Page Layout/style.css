@@ -1,0 +1,54 @@
+body{
+    border: solid black;
+    background-color: goldenrod;
+} 
+h1{
+border: solid black;
+width: 20%;
+padding: 10px;
+margin: 20px;
+background-color: yellow;
+border-radius: 20px;
+}
+.top-container{
+    float: right;
+    width: 65%;
+    border-radius: 20px;
+}
+h1, .heading{
+        display: inline-block;
+}
+p{
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.absolute{
+    border: double black;
+    width: 5%;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: -15px;
+    top: 250px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.absolute:hover{
+    width: 100px;
+}
+a{
+    position:fixed;
+    width:2%;
+    height:20px;
+    background:red;
+    left:20px;
+    bottom:100px;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    z-index: 5;
+}
